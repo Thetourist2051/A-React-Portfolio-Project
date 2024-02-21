@@ -1,0 +1,17 @@
+@import "../src/assests/scss/_HeightVariables.scss";
+@import "../src/assests/scss/WidthVariables";
+
+.max-w-50{
+  max-width: 50%;
+}
+.font-bolder{
+  font-weight: 800;
+}
+.font-extrabold{
+  font-weight: 900;
+}
+.perfect-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

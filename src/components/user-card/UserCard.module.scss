@@ -1,0 +1,38 @@
+.usercard{
+    background: linear-gradient(to top,blue, yellow);
+    background-position: top right;
+    background-size: 0px 0px;
+    background-repeat: no-repeat;
+    animation-name: animate-bg;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes animate-bg {
+    0%{
+        background-size: 0 0; 
+    }
+    100%{
+        background-size: 100% 100%; 
+    }
+    
+}
+
+.mediaDetails {
+    width: calc(100% - 4rem);
+    padding-left: 0.75rem;
+}
+
+h5 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+p {
+    font-size: 0.75rem;
+    margin: 0;
+    color: #707070;
+}

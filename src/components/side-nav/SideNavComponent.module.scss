@@ -1,0 +1,30 @@
+.sidenavmenu-content{
+height: calc(100vh - 6.5rem );
+}
+.active-menu{
+    transition: 0.5s;
+}
+.nav-item .module-arrow{
+    left: -10px;
+    top: auto;
+    bottom: auto;
+}
+.active-menu .module-arrow{
+    left: 205px;
+    animation: left-arrow-move 0.35s linear;
+}
+.nav-item{
+    width: 100%;
+}
+@keyframes left-arrow-move {
+    0%{
+    left: -10px;
+    }
+    50%{
+        left: 107px;
+    }
+    100%{
+        left:205px;
+    }
+    
+}

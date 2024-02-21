@@ -1,0 +1,15 @@
+$width-range: 1 to 100;
+
+@for $width from 1 through 100 {
+    $class-name: w-#{$width}vw;
+
+    .#{$class-name} {
+        width: $width * 1vw; 
+    }
+
+    $class-name: w-#{$width}-percent;
+
+    .#{$class-name} {
+        width: $width * 1%; 
+    }
+}

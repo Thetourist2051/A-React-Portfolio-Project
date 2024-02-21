@@ -1,0 +1,19 @@
+.contact-info-container{
+    margin-top: -1rem;
+}
+.contact-card{
+    border: 1px solid #dee2e6;
+    border-top: none;
+    .contact-card-title{
+        position: relative;
+        &::after{
+            display: block;
+            content: "";
+            height: 2px;
+            width: 50px;
+            background-color: #F85C70;
+            position: relative;
+            bottom: -4px;
+        }
+    }
+}

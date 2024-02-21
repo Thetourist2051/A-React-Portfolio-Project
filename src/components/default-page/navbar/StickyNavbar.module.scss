@@ -1,0 +1,28 @@
+.sticky-container{
+    box-shadow: 0 1px 10px rgba(54, 54, 54, 0.18);
+    -webkit-box-shadow: 0 1px 10px rgba(54, 54, 54, 0.18);
+}
+.nav-li{
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+    &:hover{
+        border-bottom: 1px solid #F85C70;
+        color: #F85C70;
+    }
+}
+.middle-text{
+    transition: 0.5s;
+}
+
+.middle-profile{
+    transition: 0.5s;
+}
+
+.reveal-class{
+    transition: 0.5s;
+    opacity: 1;
+}
+.close-class{
+    transition: 0.5s;
+    opacity: 0;
+}

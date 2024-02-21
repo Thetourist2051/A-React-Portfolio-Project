@@ -1,0 +1,15 @@
+$height-range: 1 to 100;
+
+@for $height from 1 through 100 {
+    $class-name: h-#{$height}vh;
+
+    .#{$class-name} {
+        height: $height * 1vh; 
+    }
+
+    $class-name: h-#{$height}-percent;
+
+    .#{$class-name} {
+        height: $height * 1%; 
+    }
+}
