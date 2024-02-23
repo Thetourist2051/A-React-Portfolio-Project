@@ -9,11 +9,20 @@
         &::after{
             display: block;
             content: "";
-            height: 2px;
+            height: 1px;
             width: 50px;
             background-color: #F85C70;
             position: relative;
             bottom: -4px;
         }
+    }
+    .expert-card{
+        border-bottom: 1px solid #ddd;
+        .details{
+            width: calc(100% - 2.5rem);
+        }
+    }
+    .expert-card:last-child{
+        border-bottom: none;
     }
 }

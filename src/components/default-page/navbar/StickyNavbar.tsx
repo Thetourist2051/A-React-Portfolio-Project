@@ -29,9 +29,9 @@ const StickyNavbar = () => {
         <div className="container mx-auto h-full flex items-center justify-between py-4 px-2 relative">
           <div className="left-nav flex justify-start">
              <ul className="list-none">
-              <li className={styles["nav-li"] +" inline-block px-4 py-2 cursor-pointer text-black border text-md hover:font-semibold"}>Home</li>
-              <li className={styles["nav-li"] +" inline-block px-4 py-2 cursor-pointer text-black border text-md hover:font-semibold"}>About</li>
-              <li className={styles["nav-li"] +" inline-block px-4 py-2 cursor-pointer text-black border text-md hover:font-semibold"}>Resume</li>
+              <li className={styles["nav-li"] +" inline-block px-4 py-2 cursor-pointer text-black border text-md"}>Home</li>
+              <li className={styles["nav-li"] +" inline-block px-4 py-2 cursor-pointer text-black border text-md"}>About</li>
+              <li className={styles["nav-li"] +" inline-block px-4 py-2 cursor-pointer text-black border text-md"}>Resume</li>
              </ul>
           </div>
 
@@ -41,15 +41,15 @@ const StickyNavbar = () => {
           </div>
 
           <div className={`${isSticky ? styles['close-class'] : styles['reveal-class']} ${styles["middle-profile"]}" h-20vh aspect-square rounded-full bg-white absolute mx-auto z-10 left-0 right-0 perfect-center`}>
-            <img className="h-90-percent w-90-percent rounded-full" src={ImageUrl.userImg} alt="" />
+            <img className="h-90-percent w-90-percent rounded-full" src={ImageUrl.afridiProfile} alt="" />
           </div>
 
           <div className="right-nav">
         <div className="left-nav flex justify-end">
              <ul className="list-none">
-              <li className={styles["nav-li"] +" inline-block px-4 py-2 cursor-pointer text-black border text-md hover:font-semibold"}>Portfolio</li>
-              <li className={styles["nav-li"] +" inline-block px-4 py-2 cursor-pointer text-black border text-md hover:font-semibold"}>Blog</li>
-              <li className={styles["nav-li"] +" inline-block px-4 py-2 cursor-pointer text-black border text-md hover:font-semibold"}>Content</li>
+              <li className={styles["nav-li"] +" inline-block px-4 py-2 cursor-pointer text-black border text-md"}>Portfolio</li>
+              <li className={styles["nav-li"] +" inline-block px-4 py-2 cursor-pointer text-black border text-md"}>Blog</li>
+              <li className={styles["nav-li"] +" inline-block px-4 py-2 cursor-pointer text-black border text-md"}>Content</li>
              </ul>
           </div>
           </div>
