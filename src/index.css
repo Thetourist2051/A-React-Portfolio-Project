@@ -42,3 +42,9 @@
 .p-text-color{
 	color: #6c757d;
 }
+.p-text-color2{
+	color: #f8f9fa;
+}
+.w-available{
+	width: -webkit-fill-available;
+}

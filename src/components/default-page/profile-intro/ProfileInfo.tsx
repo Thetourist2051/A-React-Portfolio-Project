@@ -5,7 +5,7 @@ import styles from './ProfileInfo.module.scss'
 const ProfileInfo = () => {
   return (
     <>
-      <div className={"h-80vh w-full" + " " + styles["profile-container"]}>
+      <div className={"h-80vh w-full" + " " + styles["profile-container"]} id='home-section'>
          <div className="container mx-auto h-full flex items-center">
            <div className={styles["header-content"]+ " "+ "ps-4"}>
             <h6 className='text-xl'>Hello, I am</h6>

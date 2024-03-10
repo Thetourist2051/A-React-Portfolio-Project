@@ -1,0 +1,44 @@
+.pricingsec {
+    .pricecard {
+        border: 1px solid #dee2e6;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+
+        .cardchip{
+            right: -40px;
+            top: 10px;
+            width: 8rem;
+            height: 2rem;
+            rotate: 45deg;
+        }
+
+        .topsup {
+            top: -1rem;
+        }
+
+
+        .subscribebtn {
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            background-color: #f7808f;
+
+            &:hover {
+                background-color: #F85C70;
+            }
+        }
+
+        &:hover {
+            transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            -o-transform: scale(1.05);
+        }
+    }
+}

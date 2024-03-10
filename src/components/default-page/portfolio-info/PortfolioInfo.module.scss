@@ -1,0 +1,81 @@
+.portfolioinfo {
+    .filtertab {
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    .filter {
+        color: #212529;
+        background-color: white;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+
+    .activefilter {
+        color: white;
+        background-color: #F85C70;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    .filtercontainer{
+        .portfoliocard {
+            transition: all 0.5s;
+            animation-name: zoom;
+            animation-duration: 0.5s;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+            animation-direction: normal;
+
+            .cardcontent{
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                height: 100%;
+                width: 100%;
+                background-color: #f85c70cc;
+                visibility: hidden;
+                opacity: 0;
+                transition: 0.5s all;
+            }
+    
+            .cardimg{
+                height: 200px;
+                width: 100%;
+            }
+        &:hover .cardcontent{
+            opacity: 1;
+            visibility: visible;
+        }
+        }
+
+    }
+
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(0.5);
+        -webkit-transform: scale(0.5);
+        -moz-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        -o-transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+
+}

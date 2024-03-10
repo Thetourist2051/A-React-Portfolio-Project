@@ -1,0 +1,9 @@
+.blogcard{
+    border: 1px solid #dee2e6;
+    .blogimg{
+        width: 400px;
+    }
+    .blogdetails{
+        width: calc(100% - 400px);
+    }
+}

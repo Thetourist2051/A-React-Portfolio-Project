@@ -11,5 +11,11 @@
             bottom: -8px;
         }
     }
+    .experience-item{
+        border-bottom: 1px solid #dee2e6;
+        &:last-child{
+            border-bottom: 0;
+        }
+    }
 
 }

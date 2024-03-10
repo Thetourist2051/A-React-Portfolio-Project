@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import CustomDataTable from "../../components/custom-table.tsx/CustomTable";
+import CustomDataTable from "../../components/custom-table/CustomTable";
 import { ApiUrls } from "../../constants/ApiUrls";
 import axios from "axios";
 import { DummyTableData } from "../../dummy-data/DummyTableData";
